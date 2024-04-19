@@ -36,7 +36,7 @@ class Tournament:
             print(f" events in progress: {event.name}")
             event.assign_points(event_points[event.name])
 
-# dictionary that stores the points per each of the events 
+# dictionary that stores the points per event type
 event_points = {
     "SportingEvent": 10,
     "AcademicEvent": 8,
